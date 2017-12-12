@@ -175,7 +175,7 @@ class Mail {
 			throw new Exception('かなは必須です', 400);
 		}
 
-		$posts['nameKana'] = mb_convert_kana($posts['nameSeiKana'], 'HVs');*/
+		$posts['nameKana'] = mb_convert_kana($posts['nameKana'], 'HVs');*/
 
 
 		/**
