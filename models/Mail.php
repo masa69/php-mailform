@@ -196,7 +196,7 @@ class Mail {
 
 
 		/**
-		 * 名前
+		 * 内容
 		 */
 		if (empty($posts['body'])) {
 			throw new Exception('Body is required', 400);
